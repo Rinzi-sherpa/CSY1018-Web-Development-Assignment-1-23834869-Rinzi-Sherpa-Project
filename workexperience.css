@@ -27,6 +27,7 @@ body{
     border-radius: 5px;
     padding: 10px 20px;
     box-shadow: 0 0 10px rgb(119, 119, 119);
+    cursor: pointer;
 }
 
 .experience div:hover{
