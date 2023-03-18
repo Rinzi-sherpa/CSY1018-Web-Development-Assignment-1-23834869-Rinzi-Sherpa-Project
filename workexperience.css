@@ -2,17 +2,42 @@
     text-align: center;
     margin: 0;
     padding: 20px;
-    background-color: aliceblue;
-    font-size: large;
+    font-size: 75px;
+    color: white;
 }
 body{
     margin: 0;
+    background-image: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url(../CSY1018-Web-Development-Assignment-1-23834869-Rinzi-Sherpa-Project/bg.jpeg);
+
 }
 .experience{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     padding: 30px;
-    background-color: aqua;
+    margin-top: 50px;
 }
 
 
+
+.experience div{
+    background-color: rgba(178, 102, 255, 0.5);
+    margin: 20px;
+    flex: 1;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgb(119, 119, 119);
+}
+
+.experience div:hover{
+    background-color: rgb(178, 102, 255);
+}
+
+.heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+}

@@ -1,33 +1,7 @@
 /* This is the css for website */
 
 /* css for list items*/
-.ul-1{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    float: right;
-}
-li{
-    display: inline;     
-    float: left;
-}
 
-li a{
-    display: block;
-    padding: 18px 16px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-
-}
-
-li a:hover{
-    background-color: grey;
-    transition: 1s;
-}
-.nav-1{
-    margin: 0;
-}
 body{
     margin: 0;
 }
