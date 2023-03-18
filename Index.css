@@ -5,8 +5,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: rgb(26, 23, 23);
+    float: right;
 }
 li{
     display: inline;     
@@ -31,4 +30,77 @@ li a:hover{
 }
 body{
     margin: 0;
+}
+
+.report{
+    background-color:rgb(47, 47, 146);
+    color: white;
+}
+
+
+header{
+    background-image: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url(../CSY1018-Web-Development-Assignment-1-23834869-Rinzi-Sherpa-Project/bg.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.about{
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    transform: translate(-50,-50);
+    color: white;
+    font-size: 40px;
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.86, 1);
+}
+
+.me{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-50,-50);
+    color:white;
+    font-size: 25px;
+}
+p{
+    font-style: italic;
+    font-size: 35px;
+    color: aqua;
+}
+
+@keyframes scale{
+    100% {
+        transform: scale(1);
+    }
+}
+
+span{
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+}
+
+span:nth-child(1){
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2){
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3){
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4){
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
 }

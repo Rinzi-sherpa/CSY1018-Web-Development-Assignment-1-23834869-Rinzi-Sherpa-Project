@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+}
+
+h2{
+    text-align: center;
+    color: purple;
+    background-color: orange;
+    margin: 0;
+    padding: 30px;
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.86, 1);
+}
+
+@keyframes scale{
+    100% {
+        transform: scale(1);
+    }
+}
+
+span{
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+}
+
+span:nth-child(1){
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2){
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3){
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+/*style the image inside the grid*/
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+    display: flex;
+}
+
+/* CSS for grid photos */
+.grid{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.grid_photos{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    
+}
+/* End of grid photos */

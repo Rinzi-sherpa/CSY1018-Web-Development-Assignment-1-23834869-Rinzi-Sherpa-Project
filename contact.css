@@ -1,0 +1,57 @@
+body {
+margin: 0;
+padding: 0;
+text-align: center;
+background: url(../CSY1018-Web-Development-Assignment-1-23834869-Rinzi-Sherpa-Project/contact.jpeg);
+background-size: cover;
+font-family: sans-serif;
+}
+
+.title{
+    margin-top: 100px;
+    color: purple;
+}
+
+.title h1{
+    font-size: 33px;
+    line-height: 23px;
+    border-bottom: black;
+}
+
+.title h2{
+    font-size: 17px;
+}
+
+form{
+    margin-top: 60px;
+}
+
+.form-ctrl{
+    width: 500px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid aqua;
+    color: purple;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+input{
+    height: 40px;
+}
+form .submit{
+    background-color: rgb(0, 0, 0);
+    border-color: transparent;
+    color: purple;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    height: 51px;
+    margin-top: 20px;
+    transition: 0.6sec ease;
+}
+
+form .submit:hover{
+    background-color: grey;
+    cursor: pointer;
+}
