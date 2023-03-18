@@ -8,12 +8,13 @@ body{
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
+    background-image: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url(../CSY1018-Web-Development-Assignment-1-23834869-Rinzi-Sherpa-Project/bg.jpeg);
+
 }
 
 h2{
     text-align: center;
-    color: purple;
-    background-color: orange;
+    color: white;
     margin: 0;
     padding: 30px;
     animation: scale 3s forwards cubic-bezier(0.5, 1, 0.86, 1);
@@ -58,6 +59,13 @@ img{
     vertical-align: middle;
     display: inline-block;
     display: flex;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+img:hover{
+    transform: scale(1.1);
 }
 
 /* CSS for grid photos */
@@ -68,6 +76,7 @@ img{
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    overflow: hidden;
 }
 .grid_photos{
     height: 300px;
