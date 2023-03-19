@@ -1,3 +1,4 @@
+/* CSS for nav bar*/
 .ul-1{
     list-style-type: none;
     margin: 0;
@@ -5,11 +6,14 @@
     overflow: hidden;
     background-color: rgb(26, 23, 23);
 }
+
+/* to dispay nav in same line*/
 li{
     display: inline;
     float: left;
 }
 
+/*To decorate the nav bar*/
 li a{
     display: block;
     padding: 18px 16px;
@@ -19,6 +23,8 @@ li a{
 
 }
 
+
+/* hover effect for nav*/
 li a:hover{
     background-color: grey;
 }
