@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url(../CSY1018-Web-Development-Assignment-1-23834869-Rinzi-Sherpa-Project/bg.jpeg);
+
+}
+/* css for header part of site report*/
+.head{
+    
+    text-align: center;
+    color: pink;
+    background-color: black;
+    padding: 10px;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*css for the description part*/
+.body{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
