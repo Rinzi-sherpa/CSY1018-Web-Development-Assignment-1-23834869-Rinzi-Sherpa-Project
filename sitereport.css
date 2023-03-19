@@ -16,7 +16,8 @@ body{
 /*css for the description part*/
 .body{
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
+    font-weight: 100;
 }
 
